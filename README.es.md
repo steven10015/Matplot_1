@@ -19,27 +19,9 @@ Sigue las siguientes instrucciones:
 
 ## 📝 Instrucciones
 
-1. Una vez comiences a trabajar en el proyecto, verás un fichero `./notebook/problems.es.ipynb` que contiene una serie de ejercicios.
+1. Completa los ejercicios en `./notebook/problems.es.ipynb`.
 
-2. Antes de iniciar, asegúrate de seleccionar el **Kernel adecuado**. 
-
-    - Al abrir el notebook, aparecerá un mensaje en la parte superior indicando **"Select Kernel"**.  
-    - Haz clic en **"Select Kernel"** (como se muestra en la imagen).       
-
-
-![image-kernel](https://github.com/4GeeksAcademy/calculus-and-algebra-problems-with-python/blob/main/assets/image-kernel.png?raw=true)
-
-3. Se mostrará una lista con las opciones disponibles. Selecciona **"Python Environments"** y elige la versión de Python que deseas utilizar.  
-
-    - Asegúrate de seleccionar la versión especificada en el archivo `devcontainer.json`, ya que esta es la recomendada para el proyecto.
-
-
-![image-devcontainer](https://github.com/4GeeksAcademy/calculus-and-algebra-problems-with-python/blob/main/assets/devcontainer-image.png?raw=true)
-
-
-
-> Solución: https://github.com/4GeeksAcademy/visualization-exercises-with-matplot-and-seaborn
-/blob/main/notebook/solutions.es.ipynb
+> Solución: https://github.com/4GeeksAcademy/visualization-exercises-with-matplot-and-seaborn/blob/main/notebook/solutions.es.ipynb
 
 
 ## 🚛 Cómo entregar este proyecto
