@@ -1,8 +1,4 @@
-# pip install -r requirements.txt
-
-# Base ----------------------------------------
-pandas>=1.5.3
-numpy>=1.24.2
-matplotlib>=3.7.0
-seaborn>=0.12.2
-ipykernel
+jupyter
+matplotlib==3.10.3
+pandas==2.3.1
+seaborn==0.13.2
