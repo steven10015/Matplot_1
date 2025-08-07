@@ -1,4 +1,5 @@
 # Data Visualization with Matplotlib and Seaborn
+[![Codespaces Prebuilds](https://github.com/4GeeksAcademy/gperdrizet-visualization-exercises-with-matplot-and-seaborn/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/4GeeksAcademy/gperdrizet-visualization-exercises-with-matplot-and-seaborn/actions/workflows/codespaces/create_codespaces_prebuilds)
 
 A comprehensive data visualization project focused on mastering essential plotting techniques using Python's most popular visualization libraries. This project demonstrates fundamental to advanced visualization concepts through practical exercises with real-world applications.
 
