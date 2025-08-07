@@ -18,19 +18,6 @@ The project covers essential visualization techniques including:
 - Heatmaps for correlation matrices
 - Box plots for statistical summaries
 
-## Learning Objectives
-
-### Core Visualization Concepts
-- Understanding when to use different chart types
-- Creating clear, informative plots with proper labeling
-- Customizing visual elements for better communication
-- Exploring data distributions and relationships
-
-### Technical Skills
-- **Matplotlib**: Core plotting functionality and customization
-- **Seaborn**: Statistical visualization and aesthetic enhancements
-- **Pandas**: Data manipulation for visualization
-- **NumPy**: Numerical data generation and processing
 
 ## Getting Started
 
@@ -91,66 +78,19 @@ The project covers essential visualization techniques including:
 ## Project Structure
 
 ```
-├── .devcontainer/         # Development container configuration
-├── assets/                # Resources and preview images
+├── .devcontainer/         # Codespace/development container configuration
+├── assets/                # Resources and images
 │   └── preview.png        # Project preview image
-├── notebook/              # Interactive Jupyter notebooks
-│   ├── problems.ipynb     # Exercise notebook with challenges
-│   └── solutions.ipynb    # Complete solutions and examples
+│
+├── notebooks/             # Interactive Jupyter notebooks
+│   ├── assignment.ipynb   # Exercise notebook with challenges
+│   └── solution.ipynb     # Solution notebook
+│
+├── .gitignore             # File and directories listed here are not tracked by git
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 ```
 
-## Exercises Overview
-
-### Exercise 1: Simple Line Plot
-- **Concept**: Linear functions and continuous data
-- **Skills**: Basic plotting, axis labeling, mathematical visualization
-- **Application**: Walking speed analysis using distance vs. time
-
-### Exercise 2: Categorical Data Visualization
-- **Concept**: Representing categorical information
-- **Skills**: Bar charts (vertical and horizontal), proper labeling
-- **Application**: University enrollment analysis by major
-
-### Exercise 3: Proportion Visualization
-- **Concept**: Part-to-whole relationships
-- **Skills**: Pie charts, percentage display, effective labeling
-- **Application**: Student distribution across academic programs
-
-### Exercise 4: Relationship Analysis
-- **Concept**: Correlation between numerical variables
-- **Skills**: Scatter plots, color coding, legend management
-- **Application**: Iris flower measurements analysis
-
-### Exercise 5: Distribution Exploration
-- **Concept**: Understanding data distributions
-- **Skills**: Histograms, bin optimization, multiple distributions
-- **Application**: Flower characteristic distribution patterns
-
-### Exercise 6: Correlation Visualization
-- **Concept**: Variable relationships and correlation strength
-- **Skills**: Heatmaps, correlation matrices, annotation
-- **Application**: Multi-variable relationship analysis
-
-### Exercise 7: Statistical Summaries
-- **Concept**: Distribution comparison across categories
-- **Skills**: Box plots, quartile visualization, outlier detection
-- **Application**: Species-based characteristic comparison
-
-## Key Concepts Covered
-
-### Visualization Best Practices
-- **Clarity**: Clear axis labels, titles, and legends
-- **Appropriateness**: Choosing the right chart type for your data
-- **Aesthetics**: Effective use of color, size, and styling
-- **Communication**: Making data insights accessible and understandable
-
-### Technical Proficiency
-- **Matplotlib Fundamentals**: Core plotting functions and customization
-- **Seaborn Enhancements**: Statistical plotting and improved aesthetics
-- **Data Integration**: Working with Pandas DataFrames and NumPy arrays
-- **Interactive Development**: Jupyter notebook best practices
 
 ## Sample Datasets
 
@@ -161,6 +101,28 @@ The project works with carefully designed datasets including:
 - **Iris Flower Measurements**: Classic dataset for multi-variable analysis
 - **Generated Distributions**: Controlled data for exploring statistical concepts
 
+
+## Learning Objectives
+
+### Core Visualization Concepts
+- Understanding when to use different chart types
+- Creating clear, informative plots with proper labeling
+- Customizing visual elements for better communication
+- Exploring data distributions and relationships
+
+### Visualization Best Practices
+- **Clarity**: Clear axis labels, titles, and legends
+- **Appropriateness**: Choosing the right chart type for your data
+- **Aesthetics**: Effective use of color, size, and styling
+- **Communication**: Making data insights accessible and understandable
+
+### Key Skills
+- **Matplotlib**: Core plotting functionality and customization
+- **Seaborn**: Statistical visualization and aesthetic enhancements
+- **Pandas**: Data manipulation for visualization
+- **NumPy**: Numerical data generation and processing
+
+
 ## Technologies Used
 
 - **Python 3.11**: Core programming language
@@ -170,6 +132,7 @@ The project works with carefully designed datasets including:
 - **NumPy**: Numerical computing and data generation
 - **Jupyter**: Interactive development environment
 
+
 ## Contributing
 
 This is an educational project designed for learning data visualization concepts. Contributions for improving exercises, adding new visualization techniques, or enhancing explanations are welcome:
@@ -178,14 +141,3 @@ This is an educational project designed for learning data visualization concepts
 2. Create a feature branch
 3. Make your improvements
 4. Submit a pull request
-
-## Educational Value
-
-This project is structured to provide:
-
-- **Progressive Learning**: Exercises build from simple to complex concepts
-- **Practical Application**: Real-world scenarios and relevant datasets
-- **Best Practices**: Industry-standard visualization techniques
-- **Interactive Exploration**: Hands-on experimentation with parameters and styles
-
-Perfect for data science students, analysts, and anyone looking to improve their data visualization skills with Python's most popular libraries.
