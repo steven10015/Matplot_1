@@ -87,7 +87,7 @@ The project covers essential visualization techniques including:
 │   ├── assignment.ipynb   # Exercise notebook with challenges
 │   └── solution.ipynb     # Solution notebook
 │
-├── .gitignore             # File and directories listed here are not tracked by git
+├── .gitignore             # File and directories not tracked by git
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 ```
