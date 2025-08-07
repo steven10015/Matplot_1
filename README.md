@@ -34,58 +34,71 @@ The project covers essential visualization techniques including:
 
 ## Getting Started
 
-### Using GitHub Codespaces (Recommended)
+### Option 1: GitHub Codespaces (Recommended)
 
-Launch this project instantly in a fully configured cloud development environment:
+1. **Fork the Repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - 4Geeks students: set 4GeeksAcademy as the owner - 4Geeks pays for your codespace usage. All others, set yourself as the owner
+   - Give the fork a descriptive name. 4Geeks students: I recommend including your GitHub username to help in finding the fork if you loose the link
+   - Click "Create fork"
+   - 4Geeks students: bookmark or otherwise save the link to your fork
 
-1. Click the green "Code" button on the GitHub repository
-2. Select "Codespaces" tab
-3. Click "Create codespace on main"
-4. Wait for the environment to initialize (all dependencies will be installed automatically)
-5. Open `notebook/problems.ipynb` to start the exercises
+2. **Create a GitHub Codespace**
+   - On your forked repository, click the "Code" button
+   - Select "Create codespace on main"
+   - If the "Create codespace on main" option is grayed out - go to your codespaces list from the three-bar menu at the upper left and delete an old codespace
+   - Wait for the environment to load (dependencies are pre-installed)
 
-GitHub Codespaces provides a complete VS Code environment in your browser with all required extensions and packages pre-installed.
+3. **Start Working**
+   - Open `notebooks/assignment.ipynb` in the Jupyter interface
+   - Follow the step-by-step instructions in the notebook
 
+### Option 2: Local Development
 
-### Local installation
+1. **Prerequisites**
+   - Git
+   - Python >= 3.10
 
-#### Prerequisites
+2. **Fork the repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - Optional: give the fork a new name and/or description
+   - Click "Create fork"
 
-- Python 3.11+
-- Jupyter Notebook or VS Code with Jupyter extension
+3. **Clone the repository**
+   - From your fork of the repository, click the green "Code" button at the upper right
+   - From the "Local" tab, select HTTPS and copy the link
+   - Run the following commands on your machine, replacing `<LINK>` and `<REPO_NAME>`
 
-#### Steps
-
-1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd 02-matplotlib
+   git clone <LINK>
+   cd <REPO_NAME>
    ```
 
-2. **Install dependencies**:
+4. **Set Up Environment**
+
    ```bash
+   python -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
-3. **Open the project**:
+5. **Launch Jupyter & start the notebook**
    ```bash
-   jupyter notebook notebook/problems.ipynb
+   jupyter notebook notebooks/assignment.ipynb
    ```
-   
-   Or open the notebook files in VS Code with the Jupyter extension.
 
 
 ## Project Structure
 
 ```
-├── .devcontainer/          # Development container configuration
-├── assets/                 # Resources and preview images
+├── .devcontainer/         # Development container configuration
+├── assets/                # Resources and preview images
 │   └── preview.png        # Project preview image
 ├── notebook/              # Interactive Jupyter notebooks
 │   ├── problems.ipynb     # Exercise notebook with challenges
 │   └── solutions.ipynb    # Complete solutions and examples
 ├── requirements.txt       # Python dependencies
-└── README.md             # Project documentation
+└── README.md              # Project documentation
 ```
 
 ## Exercises Overview
