@@ -105,19 +105,6 @@ The project works with carefully designed datasets including:
 
 ## Learning Objectives
 
-### Core Visualization Concepts
-- Understanding when to use different chart types
-- Creating clear, informative plots with proper labeling
-- Customizing visual elements for better communication
-- Exploring data distributions and relationships
-
-### Visualization Best Practices
-- **Clarity**: Clear axis labels, titles, and legends
-- **Appropriateness**: Choosing the right chart type for your data
-- **Aesthetics**: Effective use of color, size, and styling
-- **Communication**: Making data insights accessible and understandable
-
-### Key Skills
 - **Matplotlib**: Core plotting functionality and customization
 - **Seaborn**: Statistical visualization and aesthetic enhancements
 - **Pandas**: Data manipulation for visualization
