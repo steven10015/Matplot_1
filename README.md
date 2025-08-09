@@ -80,8 +80,7 @@ The project covers essential visualization techniques including:
 
 ```
 ├── .devcontainer/         # Codespace/development container configuration
-├── assets/                # Resources and images
-│   └── preview.png        # Project preview image
+├── assets/                # Images and other files 
 │
 ├── notebooks/             # Interactive Jupyter notebooks
 │   ├── assignment.ipynb   # Exercise notebook with challenges
