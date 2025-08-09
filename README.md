@@ -1,59 +1,130 @@
-<!--hide-->
 # Data Visualization with Matplotlib and Seaborn
-<!--endhide-->
+[![Codespaces Prebuilds](https://github.com/4GeeksAcademy/gperdrizet-visualization-exercises-with-matplot-and-seaborn/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/4GeeksAcademy/gperdrizet-visualization-exercises-with-matplot-and-seaborn/actions/workflows/codespaces/create_codespaces_prebuilds)
 
-In this practice, you will learn to solve the proposed exercises by applying basic and fundamental visualization techniques, using `matplotlib` to create more customizable graphs from scratch, and `seaborn` to generate more elegant statistical graphs with less code.
+A comprehensive data visualization project focused on mastering essential plotting techniques using Python's most popular visualization libraries. This project demonstrates fundamental to advanced visualization concepts through practical exercises with real-world applications.
 
-<how-to-start>
-  
-## 🌱 How to start this project
+![Project Preview](assets/preview.png)
 
-Follow these instructions:
+## Project Overview
 
-1. Create a new repository by forking the [Git project](https://github.com/4GeeksAcademy/visualization-exercises-with-matplot-and-seaborn) or [clicking here](https://github.com/4GeeksAcademy/visualization-exercises-with-matplot-and-seaborn/fork).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the VSCode Codespace has finished opening, start your project by following the instructions below.
+This project provides hands-on experience with data visualization fundamentals using **Matplotlib** and **Seaborn**. Through interactive Jupyter notebooks, you'll learn to create compelling visualizations that effectively communicate data insights and patterns.
 
-</how-to-start>
+The project covers essential visualization techniques including:
 
-
-## 📝 Instructions
-
-1. Once you start working on the project, you will see a file `./notebook/problems.ipynb` that contains a series of exercises.
-
-2. Before starting, make sure to select the **appropriate Kernel**. 
-
-    - When you open the notebook, a message will appear at the top indicating **"Select Kernel"**.  
-    - Click on **"Select Kernel"** (as shown in the image).       
+- Line plots for continuous data trends
+- Bar charts for categorical data comparison
+- Pie charts for proportion visualization
+- Scatter plots for relationship analysis
+- Histograms for distribution exploration
+- Heatmaps for correlation matrices
+- Box plots for statistical summaries
 
 
-![image-kernel](https://github.com/4GeeksAcademy/calculus-and-algebra-problems-with-python/blob/main/assets/image-kernel.png?raw=true)
+## Getting Started
 
-3. A list of available options will be displayed. Select **"Python Environments"** and choose the version of Python you want to use.  
+### Option 1: GitHub Codespaces (Recommended)
 
-    - Make sure to select the version specified in the `devcontainer.json` file, as this is the recommended one for the project.
+1. **Fork the Repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - 4Geeks students: set 4GeeksAcademy as the owner - 4Geeks pays for your codespace usage. All others, set yourself as the owner
+   - Give the fork a descriptive name. 4Geeks students: I recommend including your GitHub username to help in finding the fork if you loose the link
+   - Click "Create fork"
+   - 4Geeks students: bookmark or otherwise save the link to your fork
 
+2. **Create a GitHub Codespace**
+   - On your forked repository, click the "Code" button
+   - Select "Create codespace on main"
+   - If the "Create codespace on main" option is grayed out - go to your codespaces list from the three-bar menu at the upper left and delete an old codespace
+   - Wait for the environment to load (dependencies are pre-installed)
 
-![image-devcontainer](https://github.com/4GeeksAcademy/calculus-and-algebra-problems-with-python/blob/main/assets/devcontainer-image.png?raw=true)
+3. **Start Working**
+   - Open `notebooks/assignment.ipynb` in the Jupyter interface
+   - Follow the step-by-step instructions in the notebook
 
+### Option 2: Local Development
 
+1. **Prerequisites**
+   - Git
+   - Python >= 3.10
 
-> Solution: https://github.com/4GeeksAcademy/visualization-exercises-with-matplot-and-seaborn/blob/main/notebook/solutions.ipynb
+2. **Fork the repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - Optional: give the fork a new name and/or description
+   - Click "Create fork"
 
+3. **Clone the repository**
+   - From your fork of the repository, click the green "Code" button at the upper right
+   - From the "Local" tab, select HTTPS and copy the link
+   - Run the following commands on your machine, replacing `<LINK>` and `<REPO_NAME>`
 
-## 🚛 How to submit this project
-
-Once you complete the exercises, follow these steps to submit them correctly:  
-
-1. **Save and commit the changes** in your local repository:  
-
-   ```sh
-   git add .
-   git commit -m "Completed exercises"
+   ```bash
+   git clone <LINK>
+   cd <REPO_NAME>
    ```
-2. Push the changes to GitHub with:
 
-    ```sh
-    git push origin main
-    ```
-3. Go to [4Geeks.com](https://4geeks.com) to submit the link to your repository.
+4. **Set Up Environment**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+5. **Launch Jupyter & start the notebook**
+   ```bash
+   jupyter notebook notebooks/assignment.ipynb
+   ```
+
+
+## Project Structure
+
+```
+├── .devcontainer/         # Codespace/development container configuration
+├── assets/                # Images and other files 
+│
+├── notebooks/             # Interactive Jupyter notebooks
+│   ├── assignment.ipynb   # Exercise notebook with challenges
+│   └── solution.ipynb     # Solution notebook
+│
+├── .gitignore             # Files/directories not tracked by git
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+```
+
+
+## Sample Datasets
+
+The project works with carefully designed datasets including:
+
+- **Linear Motion Data**: Mathematical functions and physical concepts
+- **University Enrollment**: Categorical data for educational analysis
+- **Iris Flower Measurements**: Classic dataset for multi-variable analysis
+- **Generated Distributions**: Controlled data for exploring statistical concepts
+
+
+## Learning Objectives
+
+- **Matplotlib**: Core plotting functionality and customization
+- **Seaborn**: Statistical visualization and aesthetic enhancements
+- **Pandas**: Data manipulation for visualization
+- **NumPy**: Numerical data generation and processing
+
+
+## Technologies Used
+
+- **Python 3.11**: Core programming language
+- **Matplotlib**: Fundamental plotting library
+- **Seaborn**: Statistical data visualization
+- **Pandas**: Data manipulation and analysis
+- **NumPy**: Numerical computing and data generation
+- **Jupyter**: Interactive development environment
+
+
+## Contributing
+
+This is an educational project designed for learning data visualization concepts. Contributions for improving exercises, adding new visualization techniques, or enhancing explanations are welcome:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your improvements
+4. Submit a pull request
